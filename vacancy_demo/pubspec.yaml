@@ -1,0 +1,53 @@
+name: vacancy_demo
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  font_awesome_flutter: ^10.7.0
+  flutter_bloc: ^8.1.6
+  gap: ^3.0.1
+  image_network: ^2.5.6
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: YsabeauInfant
+      fonts:
+        - asset: font/YsabeauInfant-Black.ttf
+        - asset: font/YsabeauInfant-BlackItalic.ttf
+        - asset: font/YsabeauInfant-Bold.ttf
+        - asset: font/YsabeauInfant-BoldItalic.ttf
+        - asset: font/YsabeauInfant-ExtraBold.ttf
+        - asset: font/YsabeauInfant-ExtraBoldItalic.ttf
+        - asset: font/YsabeauInfant-ExtraLight.ttf
+        - asset: font/YsabeauInfant-ExtraLightItalic.ttf
+        - asset: font/YsabeauInfant-Italic.ttf
+        - asset: font/YsabeauInfant-Light.ttf
+        - asset: font/YsabeauInfant-LightItalic.ttf
+        - asset: font/YsabeauInfant-Medium.ttf
+        - asset: font/YsabeauInfant-MediumItalic.ttf
+        - asset: font/YsabeauInfant-Regular.ttf
+        - asset: font/YsabeauInfant-SemiBold.ttf
+        - asset: font/YsabeauInfant-SemiBoldItalic.ttf
+        - asset: font/YsabeauInfant-Thin.ttf
+        - asset: font/YsabeauInfant-ThinItalic.ttf
+
